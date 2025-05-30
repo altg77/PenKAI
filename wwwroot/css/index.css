@@ -1,0 +1,175 @@
+
+.carrossel-container {
+    margin-top: 20px;
+    position: relative;
+    max-width: 9000px; /* Ajuste a largura conforme necessário */
+    width: 100%;
+    overflow: hidden;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.carrossel-slide {
+    display: none; /* Esconde todos os slides por padrão */
+    width: 100%;
+    position: relative; /* Necessário para posicionar o conteudo-slide */
+    animation: fadeEffect 1.5s ease-in-out; /* Animação de fade mais suave */
+}
+
+.carrossel-slide img {
+    width: 100%;
+    height: auto; /* Mantém a proporção da imagem */
+    max-height: 400px; /* Defina uma altura máxima se desejar */
+    object-fit: cover; /* Garante que a imagem cubra o container */
+    vertical-align: middle;
+    filter: brightness(0.7); /* Escurece um pouco a imagem para o texto destacar */
+}
+
+/* Conteúdo sobreposto (texto e botão) */
+.conteudo-slide {
+    position: absolute;
+    top: 27%; 
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6); 
+    color: #fff;
+    padding: 20px 30px;
+    text-align: center;
+    opacity: 0; /* Começa invisível */
+    transform: translateY(calc(-50% + 20px));
+    transition: opacity 0.5s ease-out 0.3s, transform 0.5s ease-out 0.3s; 
+    max-width: 80%; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.carrossel-slide.slide-ativo .conteudo-slide {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.conteudo-slide h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+
+.conteudo-slide p {
+    margin-bottom: 15px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.botao-slide {
+    display: inline-block;
+    background-color: var(--Cor_Primaria); /* Cor do botão - exemplo azul */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.botao-slide:hover {
+    background-color: #000000; /* Cor do botão ao passar o mouse */
+    transform: translateY(-2px);
+}
+
+/* Botões de navegação (Anterior & Próximo) */
+.anterior, .proximo {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 18px;
+    margin-top: -25px;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    transition: 0.4s ease;
+    border-radius: 0 5px 5px 0;
+    user-select: none;
+    background-color: rgba(0,0,0,0.4);
+    z-index: 10; /* Garante que fiquem acima do conteúdo do slide */
+}
+
+.proximo {
+    right: 0;
+    border-radius: 5px 0 0 5px;
+}
+
+.anterior:hover, .proximo:hover {
+    background-color: rgba(0,0,0,0.9);
+}
+
+/* Indicadores (bolinhas/pontos) */
+.indicadores {
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 10px; /* Ajuste para não sobrepor demais o texto */
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10; /* Garante que fiquem acima do conteúdo do slide */
+}
+
+.indicador {
+    cursor: pointer;
+    height: 13px;
+    width: 13px;
+    margin: 0 4px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.4s ease, transform 0.2s ease;
+}
+
+.ativo, .indicador:hover {
+    background-color: #ffffff;
+    transform: scale(1.1);
+}
+
+.section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.section h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #c9372c;
+}
+
+.manga-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.manga-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+
+.manga-card:hover {
+  transform: translateY(-5px);
+}
+
+.manga-card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.manga-card h3 {
+  padding: 15px;
+  font-size: 20px;
+  color: #333;
+}

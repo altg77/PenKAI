@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/Mangaka_portal.styles.css" asp-append-version="true" />
     <link rel="shortcut icon" href="/img/Faviconn.png" type="image/x-icon">
+    @await RenderSectionAsync("Styles", required: false)
 </head>
 
 <body>
@@ -19,7 +20,7 @@
 
                 <div class="logo-container">
                     <a asp-controller="Home" asp-action="Index">
-                        <img src="~/img/Logo.png" alt="Logo do site" />
+                        <img src="~/img/Logo2.png" alt="Logo do site" />
                     </a>
                 </div>
 
@@ -154,7 +155,6 @@
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 

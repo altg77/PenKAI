@@ -1,27 +1,66 @@
 ﻿@{
-    ViewData["Title"] = "";
+  ViewData["Title"] = "";
 }
 
-<section class="hero">
-    <h1>Unleash Your マンゴー World</h1>
-    <p>Create your own story, share your soul. Welcome to the Japan of your universe.</p>
-    <button>Comece Agora</button>
-  </section>
+@section Styles {
+  <link rel="stylesheet" href="/css/index.css" asp-append-version="true" />
+}
+@section Scripts {
+  <script src="/js/index.js"></script>
+}
 
-  <section class="section">
-    <h2>Highlightsハイライト</h2>
-    <div class="manga-grid">
-      <div class="manga-card">
-        <img src="https://upload.wikimedia.org/wikipedia/pt/7/7f/Suzume_no_Tojimari_poster.jpg" alt="Suzume">
-        <h3>Suzume</h3>
-      </div>
-      <div class="manga-card">
-        <img src="https://upload.wikimedia.org/wikipedia/pt/thumb/e/e4/Tenki_no_Ko_p%C3%B4ster.png/330px-Tenki_no_Ko_p%C3%B4ster.png" alt="Shinkai Project">
-        <h3>Weathering with you</h3>
-      </div>
-      <div class="manga-card">
-        <img src="https://m.media-amazon.com/images/I/81zeqn6hofL.jpg" alt="Original Story">
-        <h3>Your name</h3>
-      </div>
+<div class="carrossel-container">
+  <div class="carrossel-slide">
+    <img src="/img/card/1.jpg" alt="Imagem 1">
+    <div class="conteudo-slide">
+      <h2>Unleash Your マンゴー World</h2>
+      <p>Create your own story, share your soul. Welcome to the Japan of your universe.</p>
+      <a href="#" class="botao-slide">See more</a>
     </div>
-  </section>
+  </div>
+
+  <div class="carrossel-slide">
+    <img src="/img/card/2.jpg" alt="Imagem 2">
+    <div class="conteudo-slide">
+      <h2>Suzume: Doors of Destiny</h2>
+      <p> A heartfelt journey where Suzume must close mystical doors across Japan, confronting loss and discovering
+        courage in a beautifully animated world.</p>
+      <a href="#" class="botao-slide">See more</a>
+    </div>
+  </div>
+
+  <div class="carrossel-slide">
+    <img src="/img/card/3.jpg" alt="Imagem 3">
+    <div class="conteudo-slide">
+      <h2>鳥山明Akira</h2>
+      <p>Creator of Dragon Ball, Akira Toriyama transformed the manga world with his iconic art style and unforgettable stories full of action, humor, and heart. His legacy continues to inspire generations.</p>
+      <a href="#" class="botao-slide">See more</a>
+    </div>
+  </div>
+
+  <div class="indicadores">
+    <span class="indicador" onclick="slideAtual(1)"></span>
+    <span class="indicador" onclick="slideAtual(2)"></span>
+    <span class="indicador" onclick="slideAtual(3)"></span>
+  </div>
+</div>
+
+<section class="section">
+  <h2>Highlightsハイライト</h2>
+  <div class="manga-grid">
+    <div class="manga-card">
+      <img src="https://upload.wikimedia.org/wikipedia/pt/7/7f/Suzume_no_Tojimari_poster.jpg" alt="Suzume">
+      <h3>Suzume</h3>
+    </div>
+    <div class="manga-card">
+      <img
+        src="https://upload.wikimedia.org/wikipedia/pt/thumb/e/e4/Tenki_no_Ko_p%C3%B4ster.png/330px-Tenki_no_Ko_p%C3%B4ster.png"
+        alt="Shinkai Project">
+      <h3>Weathering with you</h3>
+    </div>
+    <div class="manga-card">
+      <img src="https://m.media-amazon.com/images/I/81zeqn6hofL.jpg" alt="Original Story">
+      <h3>Your name</h3>
+    </div>
+  </div>
+</section>
