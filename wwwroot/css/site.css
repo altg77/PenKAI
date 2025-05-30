@@ -310,3 +310,32 @@ header {
   font-size: 13px;
   color: #ffd1d1;
 }
+
+main .Privacy {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+main .Privacy h1 {
+  font-size: 80px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+main .Privacy h2 {
+  color: #b3001b;
+  margin-top: 30px;
+}
+
+main .Privacy p {
+  margin-bottom: 20px;
+}
+
+main .Privacy ul {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}

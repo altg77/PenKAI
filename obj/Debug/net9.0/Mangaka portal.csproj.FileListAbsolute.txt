@@ -89,4 +89,5 @@ E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\refint\Mangaka portal.dll
 E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\Mangaka portal.pdb
 E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\Mangaka portal.genruntimeconfig.cache
 E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\ref\Mangaka portal.dll
-E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\compressed\svffio5pdf-inapltgnrp.gz
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\Mangaka portal.sourcelink.json
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\compressed\svffio5pdf-ehjae3mdd8.gz
