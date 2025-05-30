@@ -1,0 +1,92 @@
+E:\Tiago\Documents\Mangaka portal\bin\Debug\net9.0\appsettings.Development.json
+E:\Tiago\Documents\Mangaka portal\bin\Debug\net9.0\appsettings.json
+E:\Tiago\Documents\Mangaka portal\bin\Debug\net9.0\Mangaka portal.staticwebassets.runtime.json
+E:\Tiago\Documents\Mangaka portal\bin\Debug\net9.0\Mangaka portal.staticwebassets.endpoints.json
+E:\Tiago\Documents\Mangaka portal\bin\Debug\net9.0\Mangaka portal.exe
+E:\Tiago\Documents\Mangaka portal\bin\Debug\net9.0\Mangaka portal.deps.json
+E:\Tiago\Documents\Mangaka portal\bin\Debug\net9.0\Mangaka portal.runtimeconfig.json
+E:\Tiago\Documents\Mangaka portal\bin\Debug\net9.0\Mangaka portal.dll
+E:\Tiago\Documents\Mangaka portal\bin\Debug\net9.0\Mangaka portal.pdb
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\Mangaka portal.GeneratedMSBuildEditorConfig.editorconfig
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\Mangaka portal.AssemblyInfoInputs.cache
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\Mangaka portal.AssemblyInfo.cs
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\Mangaka portal.csproj.CoreCompileInputs.cache
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\Mangaka portal.MvcApplicationPartsAssemblyInfo.cache
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\Mangaka portal.RazorAssemblyInfo.cache
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\Mangaka portal.RazorAssemblyInfo.cs
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\scopedcss\bundle\Mangaka portal.styles.css
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\scopedcss\projectbundle\Mangaka portal.bundle.scp.css
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\compressed\fdmq7d26ig-61n19gt1b8.gz
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\compressed\r9py6vyn71-xtxxf3hu2r.gz
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\compressed\gt5zvhghm2-bqjiyaj88i.gz
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\compressed\38cay4g0cr-c2jlpeoesf.gz
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\compressed\6puhctfb9k-erw9l3u2r3.gz
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\compressed\lcalci1990-aexeepp0ev.gz
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\compressed\lkauibekvn-d7shbmvgxk.gz
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\compressed\2fy6e50q66-ausgxo2sd3.gz
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\compressed\kkoiamy393-k8d9w2qqmf.gz
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\compressed\0pzlaoqzee-cosvhxvwiu.gz
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\compressed\yho25byuxp-ub07r2b239.gz
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\compressed\jsaajzn9yo-fvhpjtyr6v.gz
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\compressed\gdstug8jvp-b7pk76d08c.gz
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\compressed\8ta9ud7gv2-fsbi9cje9m.gz
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\compressed\qlgbvoosbe-rzd6atqjts.gz
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\compressed\nknb83oivk-ee0r1s7dh0.gz
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\compressed\mvntuk8q4o-dxx9fxp4il.gz
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\compressed\t5zrqr91yc-jd9uben2k1.gz
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\compressed\m428snnrxc-khv3u5hwcm.gz
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\compressed\4t59xs5wdw-r4e9w2rdcm.gz
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\compressed\3hg70t2qhx-lcd1t2u6c8.gz
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\compressed\poa4ymoz76-c2oey78nd0.gz
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\compressed\v0lsiylpf4-tdbxkamptv.gz
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\compressed\77nhq7nlp6-j5mq2jizvt.gz
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\compressed\47wuzzwmai-06098lyss8.gz
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\compressed\1vq3hbuequ-nvvlpmu67g.gz
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\compressed\rfs1fmz0i1-s35ty4nyc5.gz
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\compressed\rn64l5os33-pj5nd1wqec.gz
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\compressed\ws1w4s5yyj-46ein0sx1k.gz
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\compressed\wn8brf2j6w-v0zj4ognzu.gz
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\compressed\iyrc1ifaor-37tfw0ft22.gz
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\compressed\h8w09fz1e5-hrwsygsryq.gz
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\compressed\45apf33we7-pk9g2wxc8p.gz
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\compressed\npztexzexu-ft3s53vfgj.gz
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\compressed\6ytc8oi7nx-6cfz1n2cew.gz
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\compressed\87qg2svc7s-6pdc2jztkx.gz
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\compressed\mks07mqmn3-493y06b0oq.gz
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\compressed\tqcfrikwvf-iovd86k7lj.gz
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\compressed\umbqh5kem9-vr1egmr9el.gz
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\compressed\ill241k1tn-kbrnm935zg.gz
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\compressed\2sej27bnzb-jj8uyg4cgr.gz
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\compressed\bnzjlg2803-y7v9cxd14o.gz
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\compressed\3r58vr0qc8-notf2xhcfb.gz
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\compressed\8nl90r6sfr-h1s4sie4z3.gz
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\compressed\337gygdk2d-63fj8s7r0e.gz
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\compressed\uhzxbng37k-0j3bgjxly4.gz
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\compressed\wwlinehum7-47otxtyo56.gz
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\compressed\i8uhgo7pjo-4v8eqarkd7.gz
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\compressed\x1fuva2g9d-356vix0kms.gz
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\compressed\elr5gunggb-83jwlth58m.gz
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\compressed\x1cgeh5lw8-mrlpezrjn3.gz
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\compressed\xe943xhgrj-lzl9nlhx6b.gz
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\compressed\e9gw7jdfi1-ag7o75518u.gz
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\compressed\atgornmg9j-x0q3zqp4vz.gz
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\compressed\vrwo8xiz32-0i3buxo5is.gz
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\compressed\0jivkglulo-o1o13a6vjx.gz
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\compressed\yk5g2jlkjy-ttgo8qnofa.gz
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\compressed\zwg1yews68-2z0ns9nrw6.gz
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\compressed\cqv5gijcnw-muycvpuwrr.gz
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\compressed\l6o2xn3s0b-87fc7y1x7t.gz
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\compressed\44eiylh0jd-mlv21k5csn.gz
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\compressed\fx0lpxb4ke-73pu4jfskj.gz
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\compressed\thc7o5pvh7-73pu4jfskj.gz
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\staticwebassets.build.json
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\staticwebassets.build.json.cache
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\staticwebassets.development.json
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\Mangaka portal.dll
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\refint\Mangaka portal.dll
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\Mangaka portal.pdb
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\Mangaka portal.genruntimeconfig.cache
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\ref\Mangaka portal.dll
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\compressed\svffio5pdf-inapltgnrp.gz
