@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Mangaka portal")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c47115894c73c37a6f45a9d847998fc537fca542")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+34b5bc5509fb26827d70304e5622dc6b42b8e25a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Mangaka portal")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Mangaka portal")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -4,37 +4,38 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>PenKAI @ViewData["Title"]</title>
+    <title>@ViewData["Title"] | Penkai</title>
     <script type="importmap"></script>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/Mangaka_portal.styles.css" asp-append-version="true" />
     <link rel="shortcut icon" href="/img/Faviconn.png" type="image/x-icon">
     @await RenderSectionAsync("Styles", required: false)
 </head>
 
-<body>
+<body id="topo">
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
 
                 <div class="logo-container">
                     <a asp-controller="Home" asp-action="Index">
-                        <img src="~/img/Logo2.png" alt="Logo do site" />
+                        <img src="/img/Logo2.png" alt="Logo do site" id="logo"/>
                     </a>
                 </div>
 
                 <form class="d-flex" role="search">
                     <div class="input-wrapper">
-                        <input class="form-control me-2" type="search" placeholder="What do you want to search for?"
-                            aria-label="Search" />
+                        <input class="form-control me-2" type="search" placeholder="O que você quer buscar?"
+                            aria-label="Pesquisar" />
                         <button class="btn btn-outline-success" type="submit"><img src="/img/lupa.png"></button>
                     </div>
                 </form>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
+                    aria-expanded="false" aria-label="Alternar navegação">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
@@ -42,45 +43,44 @@
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" asp-controller="Home"
-                                asp-action="Index">Home</a>
+                                asp-action="Index">Início</a>
                         </li>
 
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
-                                Explore
+                                Explorar
                             </a>
                             <ul class="dropdown-menu">
                                 <!-- Gêneros principais -->
                                 <li><a class="dropdown-item" href="#">Shōnen</a></li>
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Adventure</a></li>
-                                <li><a class="dropdown-item" href="#">Fantasy</a></li>
+                                <li><a class="dropdown-item" href="#">Ação</a></li>
+                                <li><a class="dropdown-item" href="#">Aventura</a></li>
+                                <li><a class="dropdown-item" href="#">Fantasia</a></li>
                                 <li><a class="dropdown-item" href="#">Romance</a></li>
-                                <li><a class="dropdown-item" href="#">Ficction</a></li>
+                                <li><a class="dropdown-item" href="#">Ficção</a></li>
 
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
 
                                 <!-- Gêneros secundários -->
-                                <li><a class="dropdown-item" href="#">Comedy</a></li>
+                                <li><a class="dropdown-item" href="#">Comédia</a></li>
                                 <li><a class="dropdown-item" href="#">Drama</a></li>
-                                <li><a class="dropdown-item" href="#">Horror</a></li>
-                                <li><a class="dropdown-item" href="#">Mystery</a></li>
-                                <li><a class="dropdown-item" href="#">Supernatural</a></li>
-                                <li><a class="dropdown-item" href="#">Sports</a></li>
+                                <li><a class="dropdown-item" href="#">Terror</a></li>
+                                <li><a class="dropdown-item" href="#">Mistério</a></li>
+                                <li><a class="dropdown-item" href="#">Sobrenatural</a></li>
+                                <li><a class="dropdown-item" href="#">Esportes</a></li>
                             </ul>
                         </li>
 
-
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Create</a>
+                            <a class="nav-link" href="#">Criar</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
-                                Language
+                                Idioma
                             </a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="#">🇧🇷 Português</a></li>
@@ -89,8 +89,7 @@
                                     <hr class="dropdown-divider">
                                 </li>
                                 <li><a class="dropdown-item" href="#">🇯🇵 Japonês</a></li>
-                                <li><a class="dropdown-item" href="#">🇰🇷 Coreana</a></li>
-
+                                <li><a class="dropdown-item" href="#">🇰🇷 Coreano</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -102,14 +101,13 @@
                             <img src="/img/FotoPerfil.jpg" alt="Foto de Perfil">
                         </a>
                         <ul class="dropdown-menu dropdown-menu-end">
-                            <li><a class="dropdown-item" asp-controller="Usuario" asp-action="Perfil">Perfil</a>
-                            </li>
+                            <li><a class="dropdown-item" asp-controller="Usuario" asp-action="Perfil">Perfil</a></li>
                             <li><a class="dropdown-item" asp-controller="Usuario"
-                                    asp-action="Configuracoes">Configurations</a></li>
+                                    asp-action="Configuracoes">Configurações</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="#">Leave</a></li>
+                            <li><a class="dropdown-item" href="#">Sair</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -117,43 +115,71 @@
         </nav>
     </header>
 
-    <div class="container">
+
+    <div class="container custom-container">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
 
-    <footer class="main-footer">
-        <div class="footer-container">
-            <div class="footer-logo">
-                <h2>PenKAI</h2>
-                <p>Connecting Stories & Creativity<br><span class="japanese-text">物語と創造性をつなぐ</span></p>
-            </div>
-
-            <div class="footer-links">
-                <h3>Links</h3>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Explore Mangás</a></li>
-                    <li><a href="#">Create page</a></li>
-                    <li><a asp-controller="Home" asp-action="Privacy">Privacy</a></li>
-                </ul>
-            </div>
-
-            <div class="footer-contact">
-                <h3>Contact</h3>
-                <p>Email: suporte@penkaiportal.com</p>
-                <p>Instagram: @@penkai.portal</p>
-            </div>
+    <section class="newsletter">
+        <h2>Faça parte da família!</h2>
+        <div class="newsletter-form">
+            <input type="email" placeholder="Insira seu melhor e-mail" />
+            <button>ENVIAR</button>
         </div>
+    </section>
 
-        <div class="footer-bottom">
-            <p>&copy; 2025 - PenKAI. All rights reserved.</p>
+    <footer>
+        <section class="footer-main">
+            <div class="footer-logo">
+                <a asp-controller="Home" asp-action="Index">
+                    <img src="/img/Logo2.png" alt="Penkai Logo" />
+                </a>
+            </div>
+
+            <div class="footer-inferior">
+                <div class="footer-info">
+                    <p>
+                        PenKAI é uma plataforma interativa para criadores de mangás e animes, onde cada autor pode
+                        montar
+                        uma página personalizada com tema japonês, incluindo narrações imersivas, referências culturais
+                        e
+                        bastidores de criação.
+                    </p>
+                </div>
+                <div class="footer-links">
+                    <a href="#">Inicio</a>
+                    <a asp-controller="Home" asp-action="Privacy">Politica de Privacidade</a>
+                    <a href="#">Minha Conta</a>
+                </div>
+                <div class="footer-contact">
+                    <h4>CONTATO</h4>
+                    <p><a href="mailto:contato@pineapple.com">Email: suporte@penkaiportal.com</a></p>
+                    <div class="footer-social">
+                        <a href="https://instagram.com/pineapple" target="_blank">
+                            <img src="instagram.png" alt="Instagram" />
+                        </a>
+                        <a href="https://youtube.com/pineapple" target="_blank">
+                            <img src="youtube.png" alt="YouTube" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="footer-directs">
+            © 2025 PenKAI. Todos os direitos reservados.
         </div>
     </footer>
 
+    <div class="bussola">
+        <a href="#topo">
+            <img src="/gif/boss.gif" alt="Guia">
+        </a>
+    </div>
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
+     <script src="~/js/site.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>

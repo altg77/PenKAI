@@ -1,5 +1,5 @@
 ﻿@{
-  ViewData["Title"] = "";
+  ViewData["Title"] = "Portal de Mangakás";
 }
 
 @section Styles {
@@ -9,58 +9,155 @@
   <script src="/js/index.js"></script>
 }
 
-<div class="carrossel-container">
-  <div class="carrossel-slide">
-    <img src="/img/card/1.jpg" alt="Imagem 1">
-    <div class="conteudo-slide">
-      <h2>Unleash Your マンゴー World</h2>
-      <p>Create your own story, share your soul. Welcome to the Japan of your universe.</p>
-      <a href="#" class="botao-slide">See more</a>
+<div class="contn">
+  <div class="contn-left">
+    <div class="carrossel-container">
+      <div class="carrossel-slide">
+        <img src="/img/card/1.jpg" alt="Imagem 1">
+        <div class="conteudo-slide">
+          <h2>Libere o seu mundo マンゴー</h2>
+          <p>Crie sua própria história, compartilhe sua alma. Bem-vindo ao Japão do seu universo.</p>
+          <a href="#" class="botao-slide">Ver mais</a>
+        </div>
+      </div>
+
+      <div class="carrossel-slide">
+        <img src="/img/card/2.jpg" alt="Imagem 2">
+        <div class="conteudo-slide">
+          <h2>Suzume: Portas do Destino</h2>
+          <p>Uma jornada emocionante onde Suzume deve fechar portas místicas por todo o Japão, enfrentando a perda e
+            descobrindo coragem em um mundo lindamente animado.</p>
+          <a href="#" class="botao-slide">Ver mais</a>
+        </div>
+      </div>
+
+      <div class="carrossel-slide">
+        <img src="/img/card/3.jpg" alt="Imagem 3">
+        <div class="conteudo-slide">
+          <h2>鳥山明 Akira</h2>
+          <p>Criador de Dragon Ball, Akira Toriyama transformou o mundo dos mangás com seu estilo artístico icônico e
+            histórias inesquecíveis cheias de ação, humor e emoção. Seu legado continua a inspirar gerações.</p>
+          <a href="#" class="botao-slide">Ver mais</a>
+        </div>
+      </div>
+
+      <div class="indicadores">
+        <span class="indicador" onclick="slideAtual(1)"></span>
+        <span class="indicador" onclick="slideAtual(2)"></span>
+        <span class="indicador" onclick="slideAtual(3)"></span>
+      </div>
     </div>
+
+    <section class="categories">
+      <div class="category">
+        <div class="icon"><i class="fas fa-dragon"></i></div>
+        <span>Shounen</span>
+      </div>
+      <div class="category">
+        <div class="icon"><i class="fas fa-fan"></i></div>
+        <span>Shoujo</span>
+      </div>
+      <div class="category">
+        <div class="icon"><i class="fas fa-magic"></i></div>
+        <span>Isekai</span>
+      </div>
+      <div class="category">
+        <div class="icon"><i class="fas fa-heart"></i></div>
+        <span>Romance</span>
+      </div>
+      <div class="category">
+        <div class="icon"><i class="fas fa-ghost"></i></div>
+        <span>Fantasia</span>
+      </div>
+      <div class="category">
+        <div class="icon"><i class="fas fa-user-ninja"></i></div>
+        <span>Ação</span>
+      </div>
+      <div class="category">
+        <div class="icon"><i class="fas fa-laugh-squint"></i></div>
+        <span>Comédia</span>
+      </div>
+      <div class="category">
+        <div class="icon"><i class="fas fa-skull-crossbones"></i></div>
+        <span>Terror</span>
+      </div>
+      <div class="category">
+        <div class="icon"><i class="fas fa-brain"></i></div>
+        <span>Ficção-Cientifica</span>
+      </div>
+      <div class="category">
+        <div class="icon"><i class="fas fa-heartbeat"></i></div>
+        <span>Sobrenatural</span>
+      </div>
+    </section>
+
+    <div class="carousel-container-prop">
+      <button class="arrow left" onclick="moveSlide(-1)">❮</button>
+      <div class="carousel-track" id="carousel-track">
+        <div class="carousel-item-prop"><img src="/img/Propagandas/Prop1.jpg" alt="Imagem 1"></div>
+        <div class="carousel-item-prop"><img src="/img/Propagandas/Prop2.jpg" alt="Imagem 2"></div>
+        <div class="carousel-item-prop"><img src="/img/Propagandas/Prop3.jpg" alt="Imagem 3"></div>
+        <div class="carousel-item-prop"><img src="/img/Propagandas/Prop1.jpg" alt="Imagem 4"></div>
+        <div class="carousel-item-prop"><img src="/img/Propagandas/Prop2.jpg" alt="Imagem 5"></div>
+        <div class="carousel-item-prop"><img src="/img/Propagandas/Prop3.jpg" alt="Imagem 6"></div>
+      </div>
+      <button class="arrow right" onclick="moveSlide(1)">❯</button>
+    </div>
+
+    <section class="section">
+      <h2>Destaques ハイライト</h2>
+      <div class="manga-grid">
+        <div class="manga-card">
+          <img src="https://upload.wikimedia.org/wikipedia/pt/7/7f/Suzume_no_Tojimari_poster.jpg" alt="Suzume">
+          <h3>Suzume</h3>
+        </div>
+        <div class="manga-card">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/pt/thumb/e/e4/Tenki_no_Ko_p%C3%B4ster.png/330px-Tenki_no_Ko_p%C3%B4ster.png"
+            alt="Projeto Shinkai">
+          <h3>O Tempo com Você</h3>
+        </div>
+        <div class="manga-card">
+          <img src="https://m.media-amazon.com/images/I/81zeqn6hofL.jpg" alt="História Original">
+          <h3>Seu Nome</h3>
+        </div>
+      </div>
+    </section>
   </div>
 
-  <div class="carrossel-slide">
-    <img src="/img/card/2.jpg" alt="Imagem 2">
-    <div class="conteudo-slide">
-      <h2>Suzume: Doors of Destiny</h2>
-      <p> A heartfelt journey where Suzume must close mystical doors across Japan, confronting loss and discovering
-        courage in a beautifully animated world.</p>
-      <a href="#" class="botao-slide">See more</a>
-    </div>
-  </div>
+  <div class="contn-right ">
+    <div class="containerlay">
 
-  <div class="carrossel-slide">
-    <img src="/img/card/3.jpg" alt="Imagem 3">
-    <div class="conteudo-slide">
-      <h2>鳥山明Akira</h2>
-      <p>Creator of Dragon Ball, Akira Toriyama transformed the manga world with his iconic art style and unforgettable stories full of action, humor, and heart. His legacy continues to inspire generations.</p>
-      <a href="#" class="botao-slide">See more</a>
-    </div>
-  </div>
+      <div class="maintenance-box">
+        <span class="arrowdash">▶</span> Aviso de conclusão parcial da manutenção
+      </div>
 
-  <div class="indicadores">
-    <span class="indicador" onclick="slideAtual(1)"></span>
-    <span class="indicador" onclick="slideAtual(2)"></span>
-    <span class="indicador" onclick="slideAtual(3)"></span>
+      <div class="banner">
+        <img src="/img/Propagandas/Suryu.jpg" alt="Nova unidade de armazenamento em Ontabara aberta!" />
+      </div>
+
+      <div class="updates">
+        <h2>Histórico de Atualizações</h2>
+        <div class="updates-list">
+          <div class="update-item">
+            <span class="date">2025/06/01</span>
+            <p>Frete grátis + taxa de cobrança na entrega por apenas 100 ienes – campanha em andamento!</p>
+          </div>
+          <div class="update-item">
+            <span class="date">2025/06/01</span>
+            <p>Grande liquidação por atacado em andamento!</p>
+          </div>
+          <div class="update-item">
+            <span class="date">2025/05/30</span>
+            <p>Ganhe cupons de 5.000 ienes ♪ Campanha de adesão ao Cartão Surugaya de maio em andamento!</p>
+          </div>
+          <div class="update-item">
+            <span class="date">2025/05/30</span>
+            <p>Chaveiro "Garo / Gura (Tamagoyaki) Futon de Sushi" – Figura do YouTuber Virtual da Hololive em destaque!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
-
-<section class="section">
-  <h2>Highlightsハイライト</h2>
-  <div class="manga-grid">
-    <div class="manga-card">
-      <img src="https://upload.wikimedia.org/wikipedia/pt/7/7f/Suzume_no_Tojimari_poster.jpg" alt="Suzume">
-      <h3>Suzume</h3>
-    </div>
-    <div class="manga-card">
-      <img
-        src="https://upload.wikimedia.org/wikipedia/pt/thumb/e/e4/Tenki_no_Ko_p%C3%B4ster.png/330px-Tenki_no_Ko_p%C3%B4ster.png"
-        alt="Shinkai Project">
-      <h3>Weathering with you</h3>
-    </div>
-    <div class="manga-card">
-      <img src="https://m.media-amazon.com/images/I/81zeqn6hofL.jpg" alt="Original Story">
-      <h3>Your name</h3>
-    </div>
-  </div>
-</section>

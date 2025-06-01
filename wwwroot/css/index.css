@@ -1,45 +1,64 @@
+.contn {
+    display: flex;
+    gap: 20px;
+}
+
+.contn-left {
+    width: 130%;
+}
+
+.section {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: var(--Cor_Primaria);
+}
+
+/*================= CARROSSEL ======================*/
 
 .carrossel-container {
-    margin-top: 20px;
     position: relative;
-    max-width: 9000px; /* Ajuste a largura conforme necessário */
+    max-width: 9000px;
     width: 100%;
     overflow: hidden;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .carrossel-slide {
-    display: none; /* Esconde todos os slides por padrão */
+    display: none;
     width: 100%;
-    position: relative; /* Necessário para posicionar o conteudo-slide */
-    animation: fadeEffect 1.5s ease-in-out; /* Animação de fade mais suave */
+    position: relative;
+    animation: fadeEffect 1.5s ease-in-out;
 }
 
 .carrossel-slide img {
     width: 100%;
-    height: auto; /* Mantém a proporção da imagem */
-    max-height: 400px; /* Defina uma altura máxima se desejar */
-    object-fit: cover; /* Garante que a imagem cubra o container */
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
     vertical-align: middle;
-    filter: brightness(0.7); /* Escurece um pouco a imagem para o texto destacar */
+    filter: brightness(0.7);
 }
 
-/* Conteúdo sobreposto (texto e botão) */
 .conteudo-slide {
     position: absolute;
-    top: 27%; 
+    top: 27%;
     left: 0;
     right: 0;
-    background-color: rgba(0, 0, 0, 0.6); 
+    background-color: rgba(0, 0, 0, 0.6);
     color: #fff;
     padding: 20px 30px;
     text-align: center;
-    opacity: 0; /* Começa invisível */
+    opacity: 0;
     transform: translateY(calc(-50% + 20px));
-    transition: opacity 0.5s ease-out 0.3s, transform 0.5s ease-out 0.3s; 
-    max-width: 80%; 
-    margin-left: auto; 
-    margin-right: auto; 
+    transition: opacity 0.5s ease-out 0.3s, transform 0.5s ease-out 0.3s;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .carrossel-slide.slide-ativo .conteudo-slide {
@@ -61,7 +80,7 @@
 
 .botao-slide {
     display: inline-block;
-    background-color: var(--Cor_Primaria); /* Cor do botão - exemplo azul */
+    background-color: var(--Cor_Primaria);
     color: white;
     padding: 10px 20px;
     text-decoration: none;
@@ -71,12 +90,12 @@
 }
 
 .botao-slide:hover {
-    background-color: #000000; /* Cor do botão ao passar o mouse */
+    background-color: #000000;
     transform: translateY(-2px);
 }
 
-/* Botões de navegação (Anterior & Próximo) */
-.anterior, .proximo {
+.anterior,
+.proximo {
     cursor: pointer;
     position: absolute;
     top: 50%;
@@ -89,8 +108,8 @@
     transition: 0.4s ease;
     border-radius: 0 5px 5px 0;
     user-select: none;
-    background-color: rgba(0,0,0,0.4);
-    z-index: 10; /* Garante que fiquem acima do conteúdo do slide */
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 10;
 }
 
 .proximo {
@@ -98,19 +117,19 @@
     border-radius: 5px 0 0 5px;
 }
 
-.anterior:hover, .proximo:hover {
-    background-color: rgba(0,0,0,0.9);
+.anterior:hover,
+.proximo:hover {
+    background-color: rgba(0, 0, 0, 0.9);
 }
 
-/* Indicadores (bolinhas/pontos) */
 .indicadores {
     text-align: center;
     padding: 10px;
     position: absolute;
-    bottom: 10px; /* Ajuste para não sobrepor demais o texto */
+    bottom: 10px;
     left: 50%;
     transform: translateX(-50%);
-    z-index: 10; /* Garante que fiquem acima do conteúdo do slide */
+    z-index: 10;
 }
 
 .indicador {
@@ -119,57 +138,196 @@
     width: 13px;
     margin: 0 4px;
     background-color: rgba(255, 255, 255, 0.5);
-    border: 1px solid rgba(0,0,0,0.2);
+    border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.4s ease, transform 0.2s ease;
 }
 
-.ativo, .indicador:hover {
+.ativo,
+.indicador:hover {
     background-color: #ffffff;
     transform: scale(1.1);
 }
 
-.section {
-  padding: 60px 20px;
-  text-align: center;
+
+/*================= CATEGORIAS ======================*/
+
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px 0;
+    gap: 10px;
 }
 
-.section h2 {
-  font-size: 32px;
-  margin-bottom: 20px;
-  color: #c9372c;
+.category {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90px;
+    text-align: center;
+    font-size: 14px;
+    color: #000;
+    cursor: pointer;
 }
+
+.category span {
+    width: 80%;
+    color: #000;
+    word-wrap: break-word;
+    white-space: normal;
+}
+
+.icon {
+    background-color: var(--Cor_Primaria);
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+    font-size: 24px;
+    color: #fff;
+}
+
+.icon:hover {
+    background-color: black;
+}
+
+/*================= CARROSSEL PRORP ======================*/
+
+.carousel-container-prop {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item-prop {
+    flex: 0 0 33.3333%;
+    /* 3 itens por vez */
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.carousel-item-prop img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.arrow.left {
+    left: 10px;
+}
+
+.arrow.right {
+    right: 10px;
+}
+
+/*================= CARDS ======================*/
 
 .manga-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 30px;
-  max-width: 1200px;
-  margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .manga-card {
-  background-color: #fff;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
-  overflow: hidden;
-  transition: transform 0.3s;
-  cursor: pointer;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+    transition: transform 0.3s;
+    cursor: pointer;
 }
 
 .manga-card:hover {
-  transform: translateY(-5px);
+    transform: translateY(-5px);
 }
 
 .manga-card img {
-  width: 100%;
-  height: 300px;
-  object-fit: cover;
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
 }
 
 .manga-card h3 {
-  padding: 15px;
-  font-size: 20px;
-  color: #333;
+    padding: 15px;
+    font-size: 20px;
+    color: #333;
+}
+
+/*================= CONTAINER LATERAL ======================*/
+
+.containerlay {
+    margin: 0 auto;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.maintenance-box {
+    background: #e7f0fa;
+    border-left: 4px solid red;
+    padding: 8px 12px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.arrowdash{
+    color: red;
+    margin-right: 4px;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.updates h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    border-left: 5px solid black;
+    padding-left: 10px;
+}
+
+.updates-list {
+    font-size: 14px;
+    line-height: 1.4;
+    max-height: 180px;
+    padding-right: 5px;
+}
+
+.update-item {
+    margin-bottom: 12px;
+}
+
+.date {
+    color: #999;
+    font-size: 12px;
+    display: block;
+    margin-bottom: 2px;
 }

@@ -18,7 +18,6 @@ E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\scopedcss\Views\Shared\_Layou
 E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\scopedcss\bundle\Mangaka portal.styles.css
 E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\scopedcss\projectbundle\Mangaka portal.bundle.scp.css
 E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\compressed\fdmq7d26ig-61n19gt1b8.gz
-E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\compressed\r9py6vyn71-xtxxf3hu2r.gz
 E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\compressed\gt5zvhghm2-bqjiyaj88i.gz
 E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\compressed\38cay4g0cr-c2jlpeoesf.gz
 E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\compressed\6puhctfb9k-erw9l3u2r3.gz
@@ -90,4 +89,7 @@ E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\Mangaka portal.pdb
 E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\Mangaka portal.genruntimeconfig.cache
 E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\ref\Mangaka portal.dll
 E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\Mangaka portal.sourcelink.json
-E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\compressed\svffio5pdf-djioapacnt.gz
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\compressed\jclg7sgd2z-u72kw53xm0.gz
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\compressed\6loxnlyuz3-9hr5ei77h4.gz
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\compressed\ckqihd27y4-sugpb3xikp.gz
+E:\Tiago\Documents\Mangaka portal\obj\Debug\net9.0\compressed\svffio5pdf-gjeu9r56h7.gz
